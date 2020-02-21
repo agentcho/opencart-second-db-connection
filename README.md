@@ -7,6 +7,7 @@ For OpenCart 2.0.1.1
 
 Вызвать можно из контроллера/модели через 
   $this->load->model('api/db'); 
+  
   $connection = $this->model_api_db->getInstance(); 
 
   $connection->query("SELECT ..."); 
